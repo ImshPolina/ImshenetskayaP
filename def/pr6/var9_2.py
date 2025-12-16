@@ -29,7 +29,7 @@ for i in range(10):
 
 print("\n" + "="*40)
 
-A, B = B, A  # Краткий способ обмена в Python
+A, B = B, A  
 
 print("После обмена содержимым:")
 print("\nПреобразованный массив A:")
@@ -38,4 +38,5 @@ for i in range(10):
 
 print("\nПреобразованный массив B:")
 for i in range(10):
+
     print(f"B[{i}] = {B[i]}")
